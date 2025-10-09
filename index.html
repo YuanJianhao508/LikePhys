@@ -384,70 +384,46 @@
       </p>
       
       <div class="columns is-multiline">
-        <!-- Ball Drop - Valid -->
+        <!-- Rigid Body Dynamics - Valid -->
         <div class="column is-half">
           <div class="content">
-            <h4 class="has-text-centered" style="color: green;">✓ Ball Drop (Valid)</h4>
+            <h4 class="has-text-centered" style="color: #d32f2f;">🔴 Rigid Body Dynamics (Valid)</h4>
             <video controls muted loop height="100%" preload="metadata" style="width: 100%; border-radius: 8px;">
-              <source src="static/videos/samples/ball_drop_valid.mp4" type="video/mp4">
+              <source src="static/videos/samples/rigid_valid.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
-            <p class="has-text-centered"><em>Normal gravity and realistic bounce</em></p>
+            <p class="has-text-centered"><em>Ball drop with normal gravity and realistic bounce</em></p>
           </div>
         </div>
         
-        <!-- Ball Drop - Invalid -->
+        <!-- Rigid Body Dynamics - Invalid -->
         <div class="column is-half">
           <div class="content">
-            <h4 class="has-text-centered" style="color: red;">✗ Ball Drop (Violation)</h4>
+            <h4 class="has-text-centered" style="color: #d32f2f;">🔴 Rigid Body Dynamics (Violation)</h4>
             <video controls muted loop height="100%" preload="metadata" style="width: 100%; border-radius: 8px;">
-              <source src="static/videos/samples/ball_drop_invalid.mp4" type="video/mp4">
+              <source src="static/videos/samples/rigid_invalid.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
-            <p class="has-text-centered"><em>Physics violation: over-bouncing</em></p>
+            <p class="has-text-centered"><em>Physics violation: over-bouncing ball</em></p>
           </div>
         </div>
 
-        <!-- Pendulum - Valid -->
+        <!-- Fluid Mechanics - Valid -->
         <div class="column is-half">
           <div class="content">
-            <h4 class="has-text-centered" style="color: green;">✓ Pendulum (Valid)</h4>
-            <video controls muted loop height="100%" preload="metadata" style="width: 100%; border-radius: 8px;">
-              <source src="static/videos/samples/pendulum_valid.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-            <p class="has-text-centered"><em>Natural harmonic motion</em></p>
-          </div>
-        </div>
-        
-        <!-- Pendulum - Invalid -->
-        <div class="column is-half">
-          <div class="content">
-            <h4 class="has-text-centered" style="color: red;">✗ Pendulum (Violation)</h4>
-            <video controls muted loop height="100%" preload="metadata" style="width: 100%; border-radius: 8px;">
-              <source src="static/videos/samples/pendulum_invalid.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-            <p class="has-text-centered"><em>Physics violation: reverse gravity</em></p>
-          </div>
-        </div>
-
-        <!-- Fluid - Valid -->
-        <div class="column is-half">
-          <div class="content">
-            <h4 class="has-text-centered" style="color: green;">✓ Fluid Flow (Valid)</h4>
+            <h4 class="has-text-centered" style="color: #f57c00;">🟠 Fluid Mechanics (Valid)</h4>
             <video controls muted loop height="100%" preload="metadata" style="width: 100%; border-radius: 8px;">
               <source src="static/videos/samples/fluid_valid.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
-            <p class="has-text-centered"><em>Realistic fluid dynamics</em></p>
+            <p class="has-text-centered"><em>Faucet flow with realistic fluid dynamics</em></p>
           </div>
         </div>
         
-        <!-- Fluid - Invalid -->
+        <!-- Fluid Mechanics - Invalid -->
         <div class="column is-half">
           <div class="content">
-            <h4 class="has-text-centered" style="color: red;">✗ Fluid Flow (Violation)</h4>
+            <h4 class="has-text-centered" style="color: #f57c00;">🟠 Fluid Mechanics (Violation)</h4>
             <video controls muted loop height="100%" preload="metadata" style="width: 100%; border-radius: 8px;">
               <source src="static/videos/samples/fluid_invalid.mp4" type="video/mp4">
               Your browser does not support the video tag.
@@ -455,10 +431,58 @@
             <p class="has-text-centered"><em>Physics violation: anti-gravity fluid</em></p>
           </div>
         </div>
+
+        <!-- Optical Effects - Valid -->
+        <div class="column is-half">
+          <div class="content">
+            <h4 class="has-text-centered" style="color: #388e3c;">🟢 Optical Effects (Valid)</h4>
+            <video controls muted loop height="100%" preload="metadata" style="width: 100%; border-radius: 8px;">
+              <source src="static/videos/samples/optical_valid.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p class="has-text-centered"><em>Correct shadow casting and light behavior</em></p>
+          </div>
+        </div>
+        
+        <!-- Optical Effects - Invalid -->
+        <div class="column is-half">
+          <div class="content">
+            <h4 class="has-text-centered" style="color: #388e3c;">🟢 Optical Effects (Violation)</h4>
+            <video controls muted loop height="100%" preload="metadata" style="width: 100%; border-radius: 8px;">
+              <source src="static/videos/samples/optical_invalid.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p class="has-text-centered"><em>Physics violation: missing shadow</em></p>
+          </div>
+        </div>
+
+        <!-- Continuum Mechanics - Valid -->
+        <div class="column is-half">
+          <div class="content">
+            <h4 class="has-text-centered" style="color: #1976d2;">🔵 Continuum Mechanics (Valid)</h4>
+            <video controls muted loop height="100%" preload="metadata" style="width: 100%; border-radius: 8px;">
+              <source src="static/videos/samples/continuum_valid.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p class="has-text-centered"><em>Cloth draping with realistic deformation</em></p>
+          </div>
+        </div>
+        
+        <!-- Continuum Mechanics - Invalid -->
+        <div class="column is-half">
+          <div class="content">
+            <h4 class="has-text-centered" style="color: #1976d2;">🔵 Continuum Mechanics (Violation)</h4>
+            <video controls muted loop height="100%" preload="metadata" style="width: 100%; border-radius: 8px;">
+              <source src="static/videos/samples/continuum_invalid.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p class="has-text-centered"><em>Physics violation: floating cloth</em></p>
+          </div>
+        </div>
       </div>
 
-      <p class="has-text-centered" style="margin-top: 1rem; color: #666;">
-        <em>Note: Please add your sample video files to <code>static/videos/samples/</code> to display them here.</em>
+      <p class="has-text-centered" style="margin-top: 1.5rem; color: #666;">
+        <em>Each domain shows a valid-invalid pair to demonstrate physics understanding evaluation.</em>
       </p>
     </div>
   </div>
