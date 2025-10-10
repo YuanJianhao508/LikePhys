@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Test</title>
+</head>
+<body>
+    <h1>Video Test Page</h1>
+    
+    <h2>Test 1: Relative path with ./</h2>
+    <video controls playsinline width="640" style="border: 2px solid red;">
+        <source src="./static/videos/rigid_valid.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <h2>Test 2: Relative path without ./</h2>
+    <video controls playsinline width="640" style="border: 2px solid blue;">
+        <source src="static/videos/rigid_valid.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <h2>Test 3: Direct link</h2>
+    <p><a href="static/videos/rigid_valid.mp4" target="_blank">Click to open video directly</a></p>
+    
+    <h2>Test 4: With full type</h2>
+    <video controls playsinline width="640" style="border: 2px solid green;">
+        <source src="static/videos/rigid_valid.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</body>
+</html>
+
