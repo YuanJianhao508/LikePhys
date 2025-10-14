@@ -14,7 +14,7 @@ We benchmark state-of-the-art video diffusion models across 12 physics scenarios
 
 ## Release Plan
 
-The codebase is temporarily under embargo while we prepare the public release.
+We are preparing the public release.
 
 In the meantime, please refer to the illustrations above for a high-level
 overview of the method and dataset.
