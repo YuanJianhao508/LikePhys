@@ -31,7 +31,12 @@ Detailed dataset links and access instructions will be shared upon public releas
 If you use LikePhys in your research, please cite:
 
 ```bibtex
-TODO
+@article{yuan2025likephys,
+  title={LikePhys: Evaluating Intuitive Physics Understanding in Video Diffusion Models via Likelihood Preference},
+  author={Yuan, Jianhao and Pizzati, Fabio and Pinto, Francesco and Kunze, Lars and Laptev, Ivan and Newman, Paul and Torr, Philip and De Martini, Daniele},
+  journal={arXiv preprint arXiv:2510.11512},
+  year={2025}
+}
 ```
 
 
