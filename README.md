@@ -1,7 +1,3 @@
----
-license: apache-2.0
----
-
 # LikePhys: Evaluating intuitive physics understanding in video diffusion models via likelihood preference
 
 ## Abstract
@@ -90,17 +86,15 @@ huggingface-cli download JianhaoDYDY/LikePhys-Benchmark --repo-type dataset --lo
 - **AnimateDiff** (`animatediff`)
 - **AnimateDiff SDXL** (`animatediff_sdxl`)
 - **CogVideoX** (`cogvideox`, `cogvideox-5b`)
-- **Hunyuan Video** (`hunyuan_t2v`, `hunyuan_i2v`)
-- **LTX Video** (`ltx`, `ltx-0.9.1`, `ltx-0.9.5`)
-- **Mochi** (`mochi`)
+- **Hunyuan Video** (`hunyuan_t2v`)
+- **LTX Video** (`ltx`)
 - **ModelScope** (`modelscope`)
-- **Stable Video Diffusion** (`svd`)
 - **Wan Video** (`wan2.1-T2V-1.3b`, `wan2.1-T2V-14b`)
 - **ZeroScope** (`zeroscope`)
 
 ## Results Analysis
 
-After evaluation, use the analysis script to compute PPE (Plausibility Preference Error) and generate rankings:
+After evaluation, use the analysis script to check results
 
 ```bash
 python read_exp_final.py
@@ -119,7 +113,3 @@ If you use LikePhys in your research, please cite:
   year={2025}
 }
 ```
-
-## License
-
-Apache License 2.0
