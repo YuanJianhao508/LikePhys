@@ -1,4 +1,6 @@
-# LikePhys: Evaluating intuitive physics understanding in video diffusion models via likelihood preference **ICLR 2026**
+# LikePhys: Evaluating intuitive physics understanding in video diffusion models via likelihood preference 
+
+**ICLR 2026**
 
 [[arXiv]](https://arxiv.org/abs/2510.11512) [[Project Page]](https://yuanjianhao508.github.io/LikePhys/) [[Dataset]](https://huggingface.co/datasets/JianhaoDYDY/LikePhys-Benchmark)
 
