@@ -1,8 +1,9 @@
-# LikePhys: Evaluating intuitive physics understanding in video diffusion models via likelihood preference
+# LikePhys: Evaluating intuitive physics understanding in video diffusion models via likelihood preference **ICLR 2026**
+
+[[arXiv]](https://arxiv.org/abs/2510.11512) [[Project Page]](https://yuanjianhao508.github.io/LikePhys/) [[Dataset]](https://huggingface.co/datasets/JianhaoDYDY/LikePhys-Benchmark)
 
 ## Abstract
-
-Intuitive physics understanding in video diffusion models plays an essential role in building general-purpose physically plausible world simulators, yet accurately evaluating such capacity remains a challenging task due to the difficulty in disentangling physics correctness from visual appearance in generation. To the end, we introduce *LikePhys*, a training-free method that evaluates intuitive physics in video diffusion models by distinguishing physically valid and impossible videos using the denoising objective as an ELBO-based likelihood surrogate on a curated dataset of valid-invalid pairs.
+*LikePhys*, a training-free method that evaluates intuitive physics in video diffusion models by distinguishing physically valid and impossible videos using the denoising objective as an ELBO-based likelihood surrogate on a curated dataset of valid-invalid pairs.
 
 ## Usage
 
@@ -106,10 +107,10 @@ python read_exp_final.py
 If you use LikePhys in your research, please cite:
 
 ```bibtex
-@article{yuan2025likephys,
+@inproceedings{yuan2025likephys,
   title={LikePhys: Evaluating Intuitive Physics Understanding in Video Diffusion Models via Likelihood Preference},
   author={Yuan, Jianhao and Pizzati, Fabio and Pinto, Francesco and Kunze, Lars and Laptev, Ivan and Newman, Paul and Torr, Philip and De Martini, Daniele},
-  journal={arXiv preprint arXiv:2510.11512},
-  year={2025}
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2026}
 }
 ```
